@@ -29,3 +29,4 @@ ggplot(pj_album, aes(x = Energy, y = reorder(Album, Energy))) +
   theme(axis.title.y = element_blank(),
         axis.text.y = element_blank(),
         axis.ticks.y = element_blank())
+
