@@ -6,6 +6,7 @@ Sys.getenv("SPOTIFY_CLIENT_ID")
 Sys.getenv("SPOTIFY_CLIENT_SECRET")
 access_token <- get_spotify_access_token()
 
+# get the data
 pearl_jam <- get_artist_audio_features('Pearl Jam') %>% 
   distinct(track_name, .keep_all = TRUE) 
 
